@@ -1,0 +1,30 @@
+# Secrets: never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.keys*
+credentials*
+id_rsa*
+id_ed25519*
+aws_vm*
+names.txt
+
+# Local data
+*.db
+*.db-*
+*.sqlite*
+
+# Media and build output
+*.mp4
+*.mov
+*.tgz
+__pycache__/
+*.pyc
+.venv*/
+venv/
+.pytest_cache/
+*.egg-info/
+node_modules/
+.DS_Store
